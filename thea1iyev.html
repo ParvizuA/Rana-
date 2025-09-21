@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menim Yazilarim</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+/* Ümumi bədən stili */
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+  background: #2e2e2e;
+  color: #e0e0e0;
+}
+
+/* Header */
+header {
+  background-color: #1f1f1f;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #a0a0a0;
+  font-weight: 700;
+}
+
+/* Əsas konteyner */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #3a3a3a;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Yazılar */
+h2 {
+  color: #c0c0c0;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 28px;
+}
+p {
+  font-size: 24px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #d0d0d0;
+  font-weight: 300;
+}
+
+/* Qırmızı vurğulu hissə */
+.highlight {
+  color: #ff4c4c;
+  font-weight: bold;
+  font-size: 32px;
+  text-shadow: 0 0 8px rgba(255, 50, 50, 0.8);
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Glow animasiya */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(255, 50, 50, 0.7),
+                 0 0 10px rgba(255, 80, 80, 0.6);
+  }
+  to {
+    text-shadow: 0 0 15px rgba(255, 0, 0, 0.9),
+                 0 0 30px rgba(255, 50, 50, 0.8);
+  }
+}
+
+/* Şəkillər */
+img {
+  max-width: 60%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  filter: grayscale(40%);
+}
+
+/* Son 6 şəkil üçün grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+.image-grid img {
+  width: 100%;
+  max-width: 280px; /* Böyüdülmüş ölçü */
+  border-radius: 10px;
+  filter: grayscale(40%);
+}
+
+/* Link */
+a {
+  color: #9ec1cf;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+  margin-top: 40px;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.3);
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    padding: 20px;
+    margin: 20px;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .highlight {
+    font-size: 28px;
+  }
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  .image-grid img {
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mənim dünənim, bu günüm və gələcəyim...</h1>
+</header>
+
+<main>
+  <p class="highlight">Burada mənim gözümdən özünü görəcək və dəfələrlə bir qadın necə belə çox sevilə bilər sualını özünə verəcəksən.</p>
+  
+  <h2>Gözəl Rənam ...</h2>
+  <p>Yəqin ki, bu şəkili xatırlayırsan... Bəlkə də minlərlə şəkilini görmüşəm amma bu şəkilini hər görəndə sanki sənə bir daha aşiq oluram. O hisslər, o duyğular təkrar içimdə canlanır, böyüyür, çoxalır..</p>
+  
+  <img src="IMG_2609.jpg" alt="Tünd tonlu şəkil">
+  <p>İndi o vaxt güldüyüm o ox mənim ürəyimin ən dərin yerlərinə qədər sancılıb...</p>
+  
+  <img src="IMG_2608.PNG" alt="Tünd tonlu şəkil">
+  <p>Bu gün qəşəng idin. O gündən əvvəl və o gündən sonraki bütün günlərdə olduğu kimi.</p>
+  
+  <img src="IMG_2610.jpg" alt="Tünd tonlu şəkil">
+  <p>Kelebek...</p>
+  
+  <img src="IMG_2611.PNG" alt="Tünd tonlu şəkil">
+  <p>Bakı Dövlətin dili olsa nələr danışardı bizdən...</p>
+  
+  <img src="IMG_2620.jpg" alt="Tünd tonlu şəkil">
+  <p>13 dəqiqə içində məni həmişə öpməkdən danışmaq istəmirəmə...</p>
+  
+  <img src="IMG_2623.PNG" alt="Tünd tonlu şəkil">
+  <p>Anakaraya gedəcəyimiz günün gecəsi. Həyatın bizi hələ nə qədər uzun səfərlərə çıxaracağını bilmədən getdiyimiz ilk uzun yol.</p>
+  
+  <img src="IMG_2624.PNG" alt="Tünd tonlu şəkil">
+  <p>Beyin bəzi xatirələri gələn qoxu ilə yaddaşa həkk edir. Bəzən uzun illər sonra gələn tanış qoxular bir anda bizi keçmişə aparır.</p>
+  
+  <img src="IMG_2625.PNG" alt="Tünd tonlu şəkil">
+  <p>Şəkildən gələn midye iyini hiss elədin?</p>
+  
+  <img src="IMG_2631.jpg" alt="Tünd tonlu şəkil">
+  <p>Adımın Efulim olduğu günlər...</p>
+  
+  <img src="IMG_2642.PNG" alt="Tünd tonlu şəkil">
+  <p>Bu dəmir parçası olan parta belə sənin yanında dünyanın ən gözəl mənzərəli skamyasından fəqlənmirdi...</p>
+  
+  <!-- Son 6 şəkil grid -->
+  <div class="image-grid">
+    <img src="IMG_2594.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2596.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2597.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2598.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2599.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2618.jpg" alt="Tünd tonlu şəkil">
+  </div>
+
+  <p>Üzündəki bu gülüşü təkrar görmək üçün ömrümdən illərimi verərdim...</p>
+   <img src="IMG_2619.jpg" alt="Tünd tonlu şəkil">
+  <p>Təzə işə düzəldiyin günlər...</p>
+   <img src="IMG_2636.jpg" alt="Tünd tonlu şəkil">
+   <p>Son 1 aya qədər həyatımın ən çətin günləri bu günlər idi. Hansı ki, hamıdan hər kəsdən uzaqda bir qadın üçün nə qədər darıxmaq mümkün idisə o qədər darıxırdım. Bir adam hər yatanda, hər oyananda hər anında ancaq bir nəfəri düşünərmi?   </p>
+   <img src="IMG_2644.jpg" alt="Tünd tonlu şəkil">
+   <p>Düşünərmiş...</p>
+   <img src="IMG_2645.jpg" alt="Tünd tonlu şəkil">
+   <p>Elə sevirəm bu şəklini.</p>
+   <img src="IMG_2649.jpg" alt="Tünd tonlu şəkil">
+   <p>Beynimin ən dərinlərində gizlənən xatirələr...</p>
+   <div class="image-grid">
+  <img src="IMG_2591.jpg" alt="Tünd tonlu şəkil">
+   <img src="IMG_2592.jpg" alt="Tünd tonlu şəkil">
+   <img src="IMG_2593.jpg" alt="Tünd tonlu şəkil">
+   <img src="IMG_2601.jpg" alt="Tünd tonlu şəkil">
+   <img src="IMG_2602.jpg" alt="Tünd tonlu şəkil">
+   <img src="IMG_2604.jpg" alt="Tünd tonlu şəkil">
+   </div>
+    <p>Gör burda nə var?</p>
+   <img src="IMG_2603.jpg" alt="Tünd tonlu şəkil">
+    <p>Yanağından öpmək üçün kuxnada heç kimin olmadığı vaxtı gözləməyin həyəcanı...</p>
+   <img src="IMG_2606.jpg" alt="Tünd tonlu şəkil">
+    <p>O günə qədər həyatımda bu qədər xoşbəxt gün yaşamadığım dəqiqdir. Avtobusun ən arxa oturacağında yanında oturmaq yol boyu danışmaq.. </p>
+   <img src="IMG_2605.jpg" alt="Tünd tonlu şəkil">
+   
+   <p>Rəna Əliyeva </p>
+   <div class="image-grid">
+   <img src="IMG_2669.PNG" alt="Tünd tonlu şəkil">
+   <img src="IMG_2670.PNG" alt="Tünd tonlu şəkil">
+   <img src="IMG_2671.PNG" alt="Tünd tonlu şəkil">
+   <img src="IMG_2672.PNG" alt="Tünd tonlu şəkil">
+</div>
+    <p>Hər zaman gözəl qal...</p>
+    <img src="IMG_2673.jpg" alt="Tünd tonlu şəkil">
+    <p>Hər zaman xoşbəxt ol...</p>
+    <img src="IMG_2674.jpg" alt="Tünd tonlu şəkil">
+    <p>Hər zaman sevgi dolu ol...</p>
+    <img src="IMG_2675.jpg" alt="Tünd tonlu şəkil">
+    <p>Hər zaman uğurlu ol...</p>
+    <img src="IMG_2676.jpg" alt="Tünd tonlu şəkil">
+    <p>Xoş günlərdən bizə qalan xatirələr...</p>
+     <div class="image-grid">
+    <img src="IMG_2678.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2679.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2680.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2681.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_2975.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_5123.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_8369.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_8926.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_8972.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_8994.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_9185.jpg" alt="Tünd tonlu şəkil">
+    <img src="IMG_0768.jpg" alt="Tünd tonlu şəkil">
+    </div>
+    
+
+
+</main>
+
+<footer>
+  &copy; 2025 Menim Yazilarim. Bütün hüquqlar qorunur.
+</footer>
+
+</body>
+</html>
